@@ -73,9 +73,7 @@ nav ul li a:hover::after{
     margin-top:20px;
     text-align: center;
 }
-/* .header-text h1 span{
-    color:#5CA4A9;
-} */
+
 .multiText{
     color:#5CA4A9;
 }
@@ -93,7 +91,7 @@ nav ul li a:hover::after{
     flex-wrap:wrap;
 }
 .about-col-1{
-    flex-basis:38%;
+    flex-basis:35%;
 }
 .about-col-1 img{
     width:100%;
@@ -113,6 +111,12 @@ nav ul li a:hover::after{
 }
 .about-col-2 p{
     text-align: center;
+    color:#fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-col-2 p span{
+    color:#5CA4A9;
 }
 .tab-titles{
     display:flex;
