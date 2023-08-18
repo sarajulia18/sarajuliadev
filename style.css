@@ -93,7 +93,7 @@ nav ul li a:hover::after{
     flex-wrap:wrap;
 }
 .about-col-1{
-    flex-basis:35%;
+    flex-basis:38%;
 }
 .about-col-1 img{
     width:100%;
@@ -117,10 +117,12 @@ nav ul li a:hover::after{
 .tab-titles{
     display:flex;
     margin:20px 0 40px;
+    border-top: 2px solid #5CA4A9;
 
 }
 .tab-links{
     margin-right:50px;
+    margin-top: 2%;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -190,9 +192,12 @@ nav ul li a:hover::after{
 .services-list div a{
     text-decoration: none;
     color:#fff;
-    font-size:16px;
+    background-color: #ababab;
+    font-size:17px;
+    padding:3%;
     margin-top:20px;
     display: inline-block;
+    border-radius: 8px;
 }
 .services-list div:hover{
     background: #5CA4A9;
@@ -353,7 +358,7 @@ nav .fa-solid {
 
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/3O7A7556.jpg);
+        background-image: url(images/3O7A7572.jpg);
     }
     .header-text{
         margin-top:50%;
@@ -363,10 +368,15 @@ nav .fa-solid {
     .header-text{
         font-size: 30px;
     }
-    nav .fa-solid, .fa-regular{
+    nav .fa-regular{
         display:block;
         font-size: 25px;
-        color:#ababab
+        color:#fff;
+    }
+    nav .fa-solid{
+        display:block;
+        font-size: 20px;
+        color:#fff;
     }
    
     nav ul{
@@ -418,4 +428,16 @@ nav .fa-solid {
     color:#61b752;
     margin-top: -40px;
     display:block;
+}
+@media only screen and (max-width:490px){
+    .container{
+        width:100%;
+        padding: 10px 5%;
+    }
+    nav .fa-solid{
+        display:inline-block;
+    }
+    .header-text h1{
+        font-size: 45px;
+    }
 }
