@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Dutu's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/JavaScript"></script>
+    <script src="https://kit.fontawesome.com/e8a5ace9e9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/teal logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p> < Freelance Web Designer > </p> -->
+                <h1>Hey there! I'm <span class="multiText">Sara</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/3O7A7688.jpg" alt="sara ">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title"> < About Me > </h2>
+                    <p> 
+                    I am currently working as a freelance junior web developer and designer. <br> I have a passion for connecting with people and contributing to business growth. <br>
+                    What sets me apart is my versatility and eagerness to learn.<br>
+                    In addition, I possess a strong background in marketing, sales, product knowledge, and brand management. These skill sets and experiences allow me to approach projects with a holistic perspective, delivering solutions that not only meet technical requirements but also captivate audiences.<br>
+                    Apart from my professional journey, my hobbies include fitness, cooking, traveling, and spending time with my family and dog.
+                    Thank you for exploring my portfolio, and I'm excited about the potential to collaborate on your upcoming web development project!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML,CSS,JavaScript</li>
+                            <li><span>App Development</span><br>React</li>
+                            <li><span>Ecommerce</span><br>Shopify and Wix platforms, Optimization</li>
+                            <li><span>Marketing/Sales</span><br>Brand awarness, Event promotion, Social media, Digital, Product knowledge, On-premise sales</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br><span>Freelance</span><br>Designing Web/App interfaces,UI/UX Design Training</li>
+                            <li><span>2019 - 2022</span><br><span>SaVi H2O</span><br>Managing Member/Product Knowledge</li>
+                            <li><span>2017 - 2021</span><br><span>Red Bull North America</span><br>Wings Team Leader/Brand Manager</li>
+                        </ul>
+                    </div>
+           
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current</span><br><span>Google</span><br>UX Design certification</li>
+                            <li><span>Feb 2023</span><br><span>MIMO bootcamp development</span><br>Certified Frontend Developer</li>
+                            <li><span>2020</span><br><span>Florida Atlantic University</span><br>B.S Kinesiology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services------- -->
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title"> < My Services > </h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Website Development and Ecommerce</h3>
+                    <p>I can help create a responsive website for your business or a personalized portfolio through Shopify or Wix!</p>
+                    <a href="#portfolio">See My Work</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h3>App Design</h3>
+                    <p>I can assist your team in React app development!</p>
+                    <a href="https://github.com/sarajulia18?tab=repositories">Check out my Repos on Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------portfolio------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title"> < Projects > </h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/savih2o-ss.png" alt="savih2o">
+                    <div class="layer">
+                        <h3>SaVi H2O</h3>
+                        <p>Water Filtration System Website</p>
+                        <a href="https://www.savih2o.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/polarpit-ss.png" alt="polarpitwebsite">
+                    <div class="layer">
+                        <h3>Polar Pit</h3>
+                        <p>At-Home Cold Plunge Ecommerce Website</p>
+                        <a href="https://polarpit.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/swim'inG-ss.png" alt="swim'inGwebsite">
+                    <div class="layer">
+                        <h3>Swim'In G Website</h3>
+                        <p>Women's Swimsuit Website</p>
+                        <a href="https://shopswiming.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <!-- ----------------contact---------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title"> < Contact Me > </h2>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>sjdutu@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>561-843-9717</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sara-dutu/"><i class="fa-brands fa-linkedin"></i> <span>Let's Connect!</span></a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/sarajulia18"><i class="fa-brands fa-square-github"></i> <span>Github</span></a>
+                    </div>
+                    <a href="images/Sara Julia Dutu Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sara Julia Web Development </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz4o8od5r_dmMs6906wtG3Z7sMJx5SB_t-TKcsQgdijRg8NID7_hWo--pFpPZnd9kkX/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typingEffect = new Typed(".multiText", {
+            strings : ["Sara!", "a UX Designer,", "and a Web Developer." ],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 100,
+            backDelay : 1200,
+        })
+      </script>
+</body>
+</html>
