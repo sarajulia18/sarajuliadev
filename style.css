@@ -436,7 +436,7 @@ nav .fa-solid {
 @media only screen and (max-width:490px){
     .container{
         width:100%;
-        padding: 10px 5%;
+        padding: 10px 3%;
     }
     nav .fa-solid{
         display:inline-block;
