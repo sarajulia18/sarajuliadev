@@ -438,6 +438,9 @@ nav .fa-solid {
         width:100%;
         padding: 10px 3%;
     }
+    nav img{
+        height: 60px;
+    }
     nav .fa-solid{
         display:inline-block;
     }
